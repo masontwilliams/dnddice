@@ -1,0 +1,70 @@
+body {
+
+	background-image: url("d20.jpg");
+
+}
+
+h {
+	margin-top: 40px;
+	font-size: 200px;
+	color: white;
+	width: 200px;
+	text-decoration: underline;
+	font: 'MutatorSans', sans-serif;
+	-webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+
+}
+
+p1 {
+	font-size: 65px;
+	font-weight: bolder;
+	color: white;
+	width: 150px;
+	-webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+	font: 'MutatorSans', sans-serif;
+}
+
+p2 {
+	font-size: 65px;
+	font-weight: bolder;
+	color: white;
+	width: 150px;
+	-webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+	font: 'MutatorSans', sans-serif;
+}
+
+p3 {
+	font-size: 100px;
+	font-weight: bold
+	color: white;
+	width: 150px;
+	background: rgba(64, 64, 41, 0.98);
+	-webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+
+}
+
+p4 {
+	font-size: 100px;
+	font-weight: bold
+	color: white;
+	width: 150px;
+	background: rgba(64, 64, 41, 0.98);
+	-webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+
+
+}
+
+.container {
+	
+	background: rgba(64, 64, 41, 0.98); 
+	color: white;
+	border: 5px solid #000000;
+	text-align: center;
+
+}
+

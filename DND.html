@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+		<title>DND DICE ROLLER AND CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="dnd.css"> 
+</head>
+<body>
+	<div class="container">
+		<h>Instructions:</h><br><br>
+		<p1>For each input, put how many dice you are rolling.</p1><br>
+		<p2>When you click "Roll," the numbers that appear are the value of each dice</p2><br><br><br><br>
+
+
+			<input type = "number" id = "numberFoursided" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+			<label for = "numberFoursided">Enter number of FOUR sided dice you are rolling.</label>
+			<button id="fourSided">Roll</button><br><br><br>
+
+			<input type = "number" id = "numberSixsided" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+			<label for = "numberSixsided">Enter number of SIX sided dice you are rolling.</label>
+			<button id = "sixSided">Roll</button><br><br><br>
+
+			<input type = "number" min = 0 id = "numberEightsided" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+			<label for = "numberEightsided">Enter number of EIGHT sided dice you are rolling.</label>
+			<button id = "eightSided">Roll</button><br><br><br>
+
+			<input type = "number" id = "numberTensided" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+			<label for = "numberTensided">Enter number of TEN sided dice you are rolling.</label>
+			<button id = "tenSided">Roll</button><br><br><br>
+
+			<input type = "number" id = "numberTwelvesided" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+			<label for = "numberTwelvesided">Enter number of TWELVE sided dice you are rolling.</label>
+			<button id = "twelveSided">Roll</button><br><br><br>
+
+			<input type = "number" id = "numberTwentysided" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+			<label for = "numberSixsided">Enter number of TWENTY sided dice you are rolling.</label>
+			<button id = "twentySided">Roll</button><br><br><br>
+
+
+		<p3 id="result"></p3><br><br>
+		<p4 id="sum"></p3>
+
+
+
+	</div>
+	<script type = "text/javascript" src = "dnd.js">
+	</script>
+</body>
+</html>
